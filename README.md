@@ -1,4 +1,4 @@
-# ÌæØ IELTS Tracker
+# IELTS Tracker
 
 > **Gamified IELTS study tracker with Duolingo-style features**
 
@@ -13,31 +13,31 @@ A comprehensive web application to track your IELTS preparation journey with XP 
 
 ## ‚ú® Features
 
-### ÌæÆ Gamification System
+###  Gamification System
 - **XP & Leveling**: Earn XP by completing tasks (Easy: 10 XP, Medium: 20 XP, Hard: 30 XP)
 - **Streak Tracking**: Maintain daily study streaks with visual feedback
 - **Badge System**: Unlock 9+ achievements based on your progress
 - **Level Progression**: Level up every 100 XP
 
-### Ì≥ä Analytics & Tracking
+###  Analytics & Tracking
 - **Skills Radar Chart**: Visual representation of progress across 4 IELTS skills
 - **Mock Test Tracker**: Record and track practice test scores with auto-calculated band scores
 - **Activity Logs**: Monitor time spent per category
 - **Task Management**: Full CRUD operations for daily study tasks
 
-### Ì≥ö Study Tools
+###  Study Tools
 - **Vocabulary Bank**: Save and track new words with definitions and examples
 - **Daily Challenges**: Auto-generated daily tasks to keep you motivated
 - **Category System**: Organize tasks by Listening, Reading, Writing, and Speaking
 
-### Ì¥ê User Management
+###  User Management
 - **Authentication**: Secure login/signup with Supabase Auth
 - **Protected Routes**: Dashboard and features require authentication
 - **User Profiles**: Personal XP, level, and streak data
 
 ---
 
-## Ì∫Ä Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -82,11 +82,11 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser Ìæâ
+Open [http://localhost:3000](http://localhost:3000) in your browser 
 
 ---
 
-## Ì≥Å Project Structure
+##  Project Structure
 
 ```
 my-ielts-tracker/
@@ -126,7 +126,7 @@ my-ielts-tracker/
 
 ---
 
-## Ì∑ÑÔ∏è Database Schema
+## Ô∏è Database Schema
 
 The application uses **8 PostgreSQL tables** with Row Level Security (RLS):
 
@@ -145,25 +145,25 @@ See `SUPABASE_SETUP.sql` for the complete schema with RLS policies.
 
 ---
 
-## ÌøÜ Badge System
+##  Badge System
 
 Unlock achievements as you progress:
 
 | Badge | Requirement | XP Bonus |
 |-------|-------------|----------|
-| ÌæØ First Step | Complete 1 task | +10 XP |
-| Ì≥ö The Bookworm | Complete 10 Reading tasks | +50 XP |
-| Ì≥ñ Vocab Hunter | Save 50 vocabulary words | +100 XP |
-| Ì¥• Week Warrior | Maintain 7-day streak | +75 XP |
-| Ì∑£Ô∏è Speaking Star | Complete 20 Speaking tasks | +50 XP |
+|  First Step | Complete 1 task | +10 XP |
+|  The Bookworm | Complete 10 Reading tasks | +50 XP |
+|  Vocab Hunter | Save 50 vocabulary words | +100 XP |
+|  Week Warrior | Maintain 7-day streak | +75 XP |
+| Ô∏è Speaking Star | Complete 20 Speaking tasks | +50 XP |
 | ‚úçÔ∏è Writing Wizard | Complete 15 Writing tasks | +50 XP |
-| Ì±Ç Listening Legend | Complete 25 Listening tasks | +50 XP |
+|  Listening Legend | Complete 25 Listening tasks | +50 XP |
 | ‚≠ê XP Master | Earn 1000 total XP | +200 XP |
-| Ìæì Band 7 Achiever | Score 7+ in mock test | +150 XP |
+|  Band 7 Achiever | Score 7+ in mock test | +150 XP |
 
 ---
 
-## Ìª†Ô∏è Tech Stack
+## Ô∏è Tech Stack
 
 ### Frontend
 - **Framework**: Next.js 16 with App Router
@@ -184,7 +184,7 @@ Unlock achievements as you progress:
 
 ---
 
-## Ì∫¢ Deployment
+##  Deployment
 
 ### Deploy to Vercel (Recommended)
 
@@ -205,7 +205,7 @@ See `DEPLOYMENT_GUIDE.md` for detailed instructions.
 
 ---
 
-## Ì≥∏ Screenshots
+##  Screenshots
 
 ### Dashboard
 - XP progress bars
@@ -225,7 +225,7 @@ See `DEPLOYMENT_GUIDE.md` for detailed instructions.
 
 ---
 
-## Ì∑∫Ô∏è Roadmap
+## Ô∏è Roadmap
 
 ### ‚úÖ Phase 1 (Completed)
 - [x] Project setup with Next.js & TypeScript
@@ -244,7 +244,7 @@ See `DEPLOYMENT_GUIDE.md` for detailed instructions.
 - [x] Mock test score tracker
 - [x] Badge unlock logic
 
-### Ì∫ß Phase 3 (Future)
+###  Phase 3 (Future)
 - [ ] Streak freeze purchase system
 - [ ] Push notifications
 - [ ] Data export (CSV/PDF)
@@ -256,7 +256,7 @@ See `DEPLOYMENT_GUIDE.md` for detailed instructions.
 
 ---
 
-## Ì¥ù Contributing
+##  Contributing
 
 This is a personal project, but contributions are welcome!
 
@@ -268,13 +268,13 @@ This is a personal project, but contributions are welcome!
 
 ---
 
-## Ì≥ù License
+##  License
 
 This project is licensed under the **MIT License** - feel free to use it for your own IELTS preparation journey!
 
 ---
 
-## Ìπè Acknowledgments
+##  Acknowledgments
 
 - Built with ‚ù§Ô∏è by someone who understands the IELTS struggle
 - Inspired by Duolingo's gamification approach
@@ -282,14 +282,14 @@ This project is licensed under the **MIT License** - feel free to use it for you
 
 ---
 
-## Ì≥û Contact & Support
+##  Contact & Support
 
 - **GitHub**: [@TaqiyudinMiftah](https://github.com/TaqiyudinMiftah)
 - **Repository**: [MY-IELTS-TRACKER](https://github.com/TaqiyudinMiftah/MY-IELTS-TRACKER)
 
 ---
 
-## Ì≥ö Documentation
+##  Documentation
 
 - [Setup Guide](SETUP_GUIDE.md) - Detailed setup instructions
 - [Database Schema](DATABASE_SCHEMA.md) - Complete database documentation
@@ -298,4 +298,4 @@ This project is licensed under the **MIT License** - feel free to use it for you
 
 ---
 
-**Happy studying! Good luck with your IELTS preparation! ÌæìÌ≥ö**
+**Happy studying! Good luck with your IELTS preparation! **
